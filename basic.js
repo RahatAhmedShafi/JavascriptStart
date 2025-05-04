@@ -31,10 +31,39 @@
 // console.table(user) // to show the object in a table format
 
 
-score=100
-const bonus=50
-score=150
-var score
-console.log(score+bonus) // 150
+// score=100
+// const bonus=50
+// score=150
+// var score
+// console.log(score+bonus) // 150
+
+// let drive string
+
+let name="rahim"
+console.log(name) // rahim
+// console.log(name.length) // 5
+// console.log(name.toUpperCase()) // RAHIM
+// console.log(name.toLowerCase()) // rahim
+// console.log(name.charAt(0)) // r
+// console.log(name.indexOf("h")) // 2
+// substring
+// console.log(name.substring(0,3)) // rah
+
+const firstName="rahim"
+const repositoryCount=20
+
+const message=`my name is ${firstName} and I have ${repositoryCount} repositories`
+// console.log(message)
+
+const message2=new String("Welcome to javascript")       
+// console.log(message2) // [String: 'Welcome to javascript']
+// console.log(message2.length) // 21
+// console.log(message2.charAt(0)) // W
+// console.log(message2.indexOf("javascript")) // 11
+// console.log(message2.substring(0,5)) // Welco
+// console.log(message2.toUpperCase()) // WELCOME TO JAVASCRIPT
+console.log(message2.replace("javascript","js")) // Welcome to js
+console.log(message2.split(" ")) // [ 'Welcome', 'to', 'javascript' ]   
+console.log(message2.split("a")) // [ 'Welcome to j', 'v', 'script' ]
 
 
