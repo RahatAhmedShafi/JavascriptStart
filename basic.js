@@ -1,7 +1,8 @@
-console.log("Hello World");
+console.log("Welcome to Javascript");
 
-let accountEmail="rahat@gmail.com"
+let accountEmail="jhon@gmail.com"
 let accountPassword="12345678"
 let accountCity="Dhaka"
+
 
 console.table([accountEmail,accountPassword,accountCity])
