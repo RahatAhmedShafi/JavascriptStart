@@ -37,7 +37,7 @@
 // var score
 // console.log(score+bonus) // 150
 
-// let drive string
+// lets drive string
 
 let name="rahim"
 console.log(name) // rahim
@@ -62,8 +62,23 @@ const message2=new String("Welcome to javascript")
 // console.log(message2.indexOf("javascript")) // 11
 // console.log(message2.substring(0,5)) // Welco
 // console.log(message2.toUpperCase()) // WELCOME TO JAVASCRIPT
-console.log(message2.replace("javascript","js")) // Welcome to js
-console.log(message2.split(" ")) // [ 'Welcome', 'to', 'javascript' ]   
-console.log(message2.split("a")) // [ 'Welcome to j', 'v', 'script' ]
+// console.log(message2.replace("javascript","js")) // Welcome to js
+// console.log(message2.split(" ")) // [ 'Welcome', 'to', 'javascript' ]   
+// console.log(message2.split("a")) // [ 'Welcome to j', 'v', 'script' ]
+const message3="  Welcome  "
+// console.log(message3)
+// console.log(message3.trim())
 
+                        // number &  math
+let number1=10
+// console.log(number1) // 10
+
+let number2=new Number(10.5893)
+// console.log(number2)
+// console.log(number2.toPrecision(3))
+// console.log(Math.round(number2))
+ // Welcome to javascript
+// console.log(Math.floor(number2)) // 10
+// console.log(Math.ceil(number2)) // 11
+// console.log(Math.random())
 
