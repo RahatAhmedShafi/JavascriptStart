@@ -40,7 +40,7 @@
 // lets drive string
 
 let name="rahim"
-console.log(name) // rahim
+// console.log(name) // rahim
 // console.log(name.length) // 5
 // console.log(name.toUpperCase()) // RAHIM
 // console.log(name.toLowerCase()) // rahim
@@ -81,4 +81,33 @@ let number2=new Number(10.5893)
 // console.log(Math.floor(number2)) // 10
 // console.log(Math.ceil(number2)) // 11
 // console.log(Math.random())
+
+// Date and Time
+let date=new Date()
+// console.log(date)
+// console.log(date.getFullYear())
+// console.log(date.getMonth()+1) // 0-11
+// console.log(date.getDate()) // 1-31
+// console.log(date.getDay()) // 0-6
+// console.log(date.getHours()) // 0-23
+// console.log(date.getMinutes()) // 0-59
+// console.log(date.getSeconds()) // 0-59
+
+// console.log(date.toDateString())
+// console.log(date.toLocaleDateString())
+// console.log(date.toLocaleTimeString())
+// console.log(date.toLocaleString()) // 10/1/2023, 12:00:00 AM
+// console.log(date.toISOString()) // 2023-10-01T06:00:00.000Z
+// console.log(date.toUTCString()) // Sun, 01 Oct 2023 06:00:00 GMT
+// console.log(date.toString()) // Sun Oct 01 2023 12:00:00 GMT+0600 (Bangladesh Standard Time)
+// console.log(date.toTimeString()) // 12:00:00 GMT+0600 (Bangladesh Standard Time)
+// console.log(date.toLocaleString("en-BD")) 
+
+let date1=new Date("2023-10-01")
+let date2=new Date(2001,0,21)
+console.log(date1) // 2023-10-01T00:00:00.000Z
+console.log(date2) // 2001-01-20T18:00:00.000Z
+date1=new Date(2018, 11, 24, 10, 33, 30)
+console.log(date1) // 2025-05-04T02:35:50.000Z
+
 
