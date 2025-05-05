@@ -37,7 +37,7 @@
 // var score
 // console.log(score+bonus) // 150
 
-// lets drive string
+                                // lets drive string
 
 let name="rahim"
 // console.log(name) // rahim
@@ -82,7 +82,7 @@ let number2=new Number(10.5893)
 // console.log(Math.ceil(number2)) // 11
 // console.log(Math.random())
 
-// Date and Time
+                        // Date and Time
 let date=new Date()
 // console.log(date)
 // console.log(date.getFullYear())
@@ -105,9 +105,54 @@ let date=new Date()
 
 let date1=new Date("2023-10-01")
 let date2=new Date(2001,0,21)
-console.log(date1) // 2023-10-01T00:00:00.000Z
-console.log(date2) // 2001-01-20T18:00:00.000Z
-date1=new Date(2018, 11, 24, 10, 33, 30)
-console.log(date1) // 2025-05-04T02:35:50.000Z
+// console.log(date1) // 2023-10-01T00:00:00.000Z
+// console.log(date2) // 2001-01-20T18:00:00.000Z
+// date1=new Date(2018, 11, 24, 10, 33, 30)
+// console.log(date1) // 2025-05-04T02:35:50.000Z
 
+                        // Array
+// let array=[1,2,3,4,5]
+// console.log(array)
+// let array1=array
+// console.log(array1) // [ 1, 2, 3, 4, 5 ]
+
+// let array2=new Array(4,5,6,7,8)
+// console.log(array2)
+
+// console.log(array2[4])
+// array2.push(9)
+// array2.push(10)
+// console.log(array2) // [ 4, 5, 6, 7, 8, 9 ]
+// array2.pop()
+// console.log(array2)
+// array2.unshift(3)
+// console.log(array2) // [ 3, 4, 5, 6, 7, 8 ]
+// array2.shift()
+// console.log(array2) // [ 4, 5, 6, 7, 8 ]
+// console.log(array2)
+// let temparr=array.slice(1,3)
+// console.log(temparr) // [ 4, 5, 6, 7, 8 ]
+// console.log(array2)
+// let temparra2=array2.splice(1,3)
+// console.log(temparra2) // [ 5, 6, 7 ]
+// console.log(array2) // [ 4, 8 ]
+
+// let array3=[1,2,3,4,5]   /// Array in string
+let MarvelHeros=new Array("Ironman","Thor","Hulk","Captain America")
+let DcHeros=new Array("Superman","Batman")
+// console.log(MarvelHeros) // [ 'Ironman', 'Thor', 'Hulk', 'Captain America' ]
+// console.log(DcHeros) // [ 'Superman', 'Batman' ]
+
+let heros=MarvelHeros.concat(DcHeros) // Merge two array
+// console.log(heros) // [ 'Ironman', 'Thor', 'Hulk', 'Captain America', 'Superman', 'Batman' ];
+
+//using spred
+let heros2=[...MarvelHeros,...DcHeros]
+// console.log(heros2) // [ 'Ironman', 'Thor', 'Hulk', 'Captain America', 'Superman', 'Batman' ]
+let score=100
+let score2=200
+let score3=300
+let arrScore=(Array.of(score,score2,score3)) // [ 100, 200, 300 ]
+console.log(arrScore) // [ 100, 200, 300 ]
+console.log(typeof(arrScore)) // object;
 
