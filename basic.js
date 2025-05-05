@@ -153,6 +153,47 @@ let score=100
 let score2=200
 let score3=300
 let arrScore=(Array.of(score,score2,score3)) // [ 100, 200, 300 ]
-console.log(arrScore) // [ 100, 200, 300 ]
-console.log(typeof(arrScore)) // object;
+// console.log(arrScore) // [ 100, 200, 300 ]
+// console.log(typeof(arrScore)) // object;
 
+                             // Object
+const mySym = Symbol("key1")
+
+
+const JsUser = {
+    name: "Rahat",
+    "full name": "Rahat Ahmed",
+    [mySym]: "mykey1",
+    age: 18,
+    location: "Dhaka",
+    email: "rahat@google.com",
+    isLoggedIn: false,
+    lastLoginDays: ["Monday", "Saturday"]
+}
+// console.log(JsUser) // { name: 'Rahat', full name: 'Rahat Ahmed', age: 18, location: 'Dhaka', email: ';
+// console.log(JsUser.name) // Rahat
+JsUser.greeting=function(){
+    console.log("Hello Rahat")
+}
+// JsUser.greeting() // Hello Rahat
+
+// JsUser.greeting2=function(){
+//     console.log(`Hello ${this.name} Welcome to javascript`)
+    
+// }
+// console.log(JsUser.greeting2() )// Hello Rahat Welcome to javascript
+
+// console.log(Object.keys(JsUser))
+// console.log(Object.values(JsUser))
+// console.log(Object.entries(JsUser)) // [ [ 'name', 'Rahat' ], [ 'full name', 'Rahat Ahmed' ], [ 'age', 18 ], [ 'location', 'Dhaka' ], [ 'email', '
+
+                //Object Destructuring
+const company={
+    companyName:"Google",
+    location:"Dhaka",
+    yearFounded:2000,
+}
+const{companyName}=company
+console.log(companyName) // Google;
+const{companyName:comname}=company
+console.log(comname) // Google;
