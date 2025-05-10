@@ -34,21 +34,70 @@
 // //    getdata(5)
 
                                // callback hell
-function getdata(getid,callback){
-    setTimeout(() => {
-        console.log(`Getting data from the server with id ${getid}`);
-        if(callback){
-            callback();
-        }
+// function getdata(getid,callback){
+//     setTimeout(() => {
+//         console.log(`Getting data from the server with id ${getid}`);
+//         if(callback){
+//             callback();
+//         }
         
         
         
-    }, 2000);
+//     }, 2000);
+// }
+
+// getdata(5,()=>{
+//     getdata(6,()=>{
+//         getdata(7)
+//     })
+// })
+
+                                // promise chain
+
+// function asyncFunc(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             console.log("data1");
+//             resolve("Success");
+            
+//         },4000)
+
+//     })
+// }
+
+// function asyncFunc2(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             console.log("data2");
+//             resolve("Success");
+            
+//         },4000)
+
+//     })
+// }
+// console.log("fetching data1");
+// asyncFunc().then(()=>{
+//     console.log("fetching data2");
+//     asyncFunc2().then(()=>{
+
+//     });
+    
+// });
+
+                            // async await
+function api(){
+    return new Promise((resolve,reject)=>{
+        setTimeout(()=>{
+            console.log("weather data");
+            resolve("Success");
+            
+        },2000)
+
+    });
 }
 
-getdata(5,()=>{
-    getdata(6,()=>{
-        getdata(7)
-    })
-})
-
+async function getweather() {
+    await api();
+    await api();
+}
+getweather()
