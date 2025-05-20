@@ -23,11 +23,38 @@
 // let num="hello"  // error
 
                     // Temporal death zone (TDZ)
-{
-    let num1=function () {
-        console.log(message);
-    }
-    let message="hello shafi"
-    num1()
-}
+// {
+//     let num1=function () {
+//         console.log(message);
+//     }
+//     let message="hello shafi"
+//     num1()
+// }
+                    //ES6 provides a new construct called for...of
+
+// let score=[34,55,67,49]
+// for (let element of score) {
+//     console.log(element);
+// }
+
+                    //Arrow Functions
+
+// let value=function (num1,num2) {
+//     return num1+num2
+    
+// }
+// let result=value(30,40)
+// console.log(result)
+
+// let value=(x,y)=>{
+//     return x+y
+// }
+// console.log( value(40,50))
+
+// let value =(x,y)=>x+y
+// console.log(value(40,30))
+
+let number=()=>console.log("hello arrow function")
+number()
+
 
