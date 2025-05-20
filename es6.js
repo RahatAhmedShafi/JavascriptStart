@@ -73,9 +73,24 @@
 // console.log(typeof(post));
 // console.log(post.title);
 
-let name1=`Rahat`
-let name2=`Ahmed`
-console.log(`My Name is ${name1} ${name2}`);
+// let name1=`Rahat`
+// let name2=`Ahmed`
+// console.log(`My Name is ${name1} ${name2}`);
+
+                    //Destructuring
+
+// let quantity=()=>{
+//     return [40,50,70]
+// }
+// let store=quantity()
+// console.log(store);
+// console.log(typeof(store));
+// let x=store[0]
+// let y=store[2]
+// console.log(x)
+// console.log(y)
+
+
 
 
 
