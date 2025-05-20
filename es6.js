@@ -90,21 +90,30 @@
 // console.log(x)
 // console.log(y)
                      
-                        // Spread Operator
+                        // Spread and Rest
 
-let marks=(a,b,...odd)=>{
-    console.log(odd);
+// let marks=(a,b,...odd)=>{
+//     console.log(odd);
     
 
-}
-marks(30,40,50,90)
+// }
+// marks(30,40,50,90)
 
-let mark2=(...odd)=>{
-    console.log(odd);
+// let mark2=(...odd)=>{
+//     console.log(odd);
     
 
-}
-mark2(105,109,509,609,405)
+// }
+// mark2(105,109,509,609,405)
 
+let mark2=(...value)=>{
+    let total=0
+    for (let temp of value) {
+        total+=temp
+    }
+    return total
+
+}
+console.log(mark2(3,4,5,6,9));
 
 
