@@ -89,9 +89,22 @@
 // let y=store[2]
 // console.log(x)
 // console.log(y)
+                     
+                        // Spread Operator
 
+let marks=(a,b,...odd)=>{
+    console.log(odd);
+    
 
+}
+marks(30,40,50,90)
 
+let mark2=(...odd)=>{
+    console.log(odd);
+    
+
+}
+mark2(105,109,509,609,405)
 
 
 
