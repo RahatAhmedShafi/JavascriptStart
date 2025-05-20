@@ -1,9 +1,12 @@
-/* Optional custom styles */
-body {
-    font-family: Arial, sans-serif;
-  }
-  
-  li {
-    list-style: none;
-  }
-  
+*{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+html,body{
+  height: 100%;
+  width: 100;
+}
+#main{
+  width: 100%;
+}

@@ -85,19 +85,21 @@
 // });
 
                             // async await
-function api(){
-    return new Promise((resolve,reject)=>{
-        setTimeout(()=>{
-            console.log("weather data");
-            resolve("Success");
+// function api(){
+//     return new Promise((resolve,reject)=>{
+//         setTimeout(()=>{
+//             console.log("weather data");
+//             resolve("Success");
             
-        },2000)
+//         },2000)
 
-    });
-}
+//     });
+// }
 
-async function getweather() {
-    await api();
-    await api();
-}
-getweather()
+// async function getweather() {
+//     await api();
+//     await api();
+// }
+// getweather()
+
+                            // API

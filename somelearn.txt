@@ -1,0 +1,9 @@
+| Day | Topics                                            |
+| --- | ------------------------------------------------- |
+| 1   | `let`, `const`, block scope, `var` vs `let/const` |
+| 2   | Arrow functions, default parameters               |
+| 3   | Template literals, destructuring (`{}` and `[]`)  |
+| 4   | Spread/rest operators, enhanced object literals   |
+| 5   | `for...of`, `Map` and `Set`, iterable vs array    |
+| 6   | Classes and inheritance                           |
+| 7   | Promises, `fetch`, async/await (intro)            |
