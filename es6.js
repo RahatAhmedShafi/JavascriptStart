@@ -54,7 +54,29 @@
 // let value =(x,y)=>x+y
 // console.log(value(40,30))
 
-let number=()=>console.log("hello arrow function")
-number()
+// let number=()=>console.log("hello arrow function")
+// number()
+
+
+                        //Template Literals
+// let str=`this is the wrong number`
+// console.log(str)
+// console.log(str.length)
+// console.log(typeof(str))
+
+// let post={
+//     title:`Rahat visited to Khulna`,
+//     heading:`Rahat is the only men who can visit khulna after the covid 19 occures`,
+//     tag:[`rahat`,`khulna`,`covid19`]
+// }
+// console.log(post);
+// console.log(typeof(post));
+// console.log(post.title);
+
+let name1=`Rahat`
+let name2=`Ahmed`
+console.log(`My Name is ${name1} ${name2}`);
+
+
 
 
